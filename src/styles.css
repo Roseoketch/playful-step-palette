@@ -58,8 +58,8 @@
   --popover: oklch(0.995 0.008 88);
   --popover-foreground: oklch(0.24 0.05 258);
 
-  /* Logo orange */
-  --primary: oklch(0.655 0.203 42);
+  /* Logo orange #F46524 */
+  --primary: #F46524;
   --primary-foreground: oklch(0.99 0.01 88);
 
   /* Deep navy ink */
