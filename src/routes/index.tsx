@@ -11,7 +11,7 @@ import {
   Wallet,
 } from "lucide-react";
 
-import logo from "@/assets/logo.png.asset.json";
+import logoMark from "@/assets/logo-mark.png";
 import heroSweaters from "@/assets/hero-sweaters.jpg";
 import pSweaters from "@/assets/p-sweaters.jpg";
 import pShirts from "@/assets/p-shirts.jpg";
@@ -133,7 +133,7 @@ function Index() {
       <header className="sticky top-0 z-40 border-b border-border bg-background/85 backdrop-blur">
         <div className="mx-auto flex max-w-6xl items-center justify-between gap-6 px-5 py-3.5">
           <a href="#top" className="flex items-center gap-3">
-            <img src={logo.url} alt="Waridi Uniform Store logo" className="size-9 rounded-full" />
+            <img src={logoMark} alt="Waridi Uniform Store logo" className="size-9" width={512} height={512} />
             <span className="leading-tight">
               <span className="block font-display text-lg font-semibold">Waridi</span>
               <span className="block text-[0.62rem] font-semibold tracking-[0.18em] text-muted-foreground">
@@ -413,7 +413,9 @@ function Index() {
         <div className="mx-auto grid max-w-6xl gap-10 px-5 py-14 sm:grid-cols-2 lg:grid-cols-4">
           <div>
             <div className="flex items-center gap-3">
-              <img src={logo.url} alt="Waridi Uniform Store logo" className="size-9 rounded-full" />
+              <span className="flex size-9 items-center justify-center rounded-full bg-background">
+                <img src={logoMark} alt="Waridi Uniform Store logo" className="size-6" width={512} height={512} loading="lazy" />
+              </span>
               <span className="font-display text-lg font-semibold">Waridi</span>
             </div>
             <p className="mt-4 text-sm opacity-75">
